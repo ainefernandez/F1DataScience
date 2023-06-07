@@ -1,0 +1,315 @@
+---
+title: "2023 Monaco Grand Prix Analysis"
+author: "Ainé Fernández"
+date: "2023-06-03"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Qualy Analysis
+
+### Gap to best 
+
+```{r}
+library(ggplot2)
+library(dplyr)
+setwd("/Users/ainefernandez/documents/F1DataScience")
+gapMonacoQ<-read.csv("MonacoQgaps.csv")
+pQualyM<-ggplot(gapMonacoQ, aes(x=Gap,y=reorder(Driver,-Gap),fill=Team))+ 
+  geom_vline(xintercept = c(0.5,1, 1.5,2.0,2.5), linetype = "dashed", color = "grey")+
+  
+  geom_bar(stat="identity")+
+  scale_fill_manual(values = c("Red Bull"="#3671C6","Mercedes"="#6CD3BF","Aston Martin"="#358C75","Ferrari"="#F91536","Williams"="#37BEDD","Aston Martin"="#358C75",
+                               "Alpine"="#2293D1","Haas"="#B6BABD","AlphaTauri"="#5E8FAA","McLaren"="#F58020","Alfa Romeo "="#C92D4B"))+
+  scale_x_continuous(breaks = seq(0, 2.5, by = 0.1))+
+  scale_y_discrete(expand = c(0,0))+
+  xlab("Gap (seconds)") +
+  ylab("Driver") +
+  ggtitle("Gap to best in Qualy")+
+  theme(panel.grid = element_blank(),
+        panel.background = element_rect(fill = "white", color = "white"),
+        plot.background = element_rect(fill = "white", color = "white"),
+        plot.title=element_text(size = 18, hjust = 0.5),
+        plot.subtitle=element_text(size = 15, hjust = 0.5),
+        plot.caption = element_text(size = 11, hjust=0.5),
+        axis.title = element_text(size = 13),
+        axis.text = element_text(size = 11),
+        axis.text.y = element_text(margin = margin(r = -20)),
+        axis.ticks.y =element_blank())+
+  labs(caption = "@f1.datascience",subtitle = "2023 Monaco GP")+theme(legend.position = "none")
+pQualyM
+```
+
+In this plot we can see the gap to the best, in this case Verstappen, of every driver on the grid during the Qualifying session. The smallest gap was 0.084 seconds courtesy of Fernando Alonso in the Aston Martin and the largest gap was Checo Pérez in the other Red Bull due to a shunt in Q1 that lead to his shocking exit early in qualifying.   
+
+
+## Pole Analysis 
+
+```{r}
+setwd("/Users/ainefernandez/documents/F1DataScience")
+VERQ<-read.csv("telVERQMonaco.csv")
+LECQ<-read.csv("telLECQMonaco.csv")
+ALOQ<-read.csv("telALOQMonaco.csv")
+VERQ$faster <- NA
+
+for (i in 1:nrow(VERQ)) {
+  if (!is.na(VERQ$Speed[i]) & !is.na(ALOQ$Speed[i]) & !is.na(LECQ$Speed[i])) {
+    if (VERQ$Speed[i] > ALOQ$Speed[i] & VERQ$Speed[i] > LECQ$Speed[i]) {
+      VERQ$faster[i] <- "Verstappen is faster"
+    } else if (ALOQ$Speed[i] > VERQ$Speed[i] & ALOQ$Speed[i] > LECQ$Speed[i]) {
+      VERQ$faster[i] <- "Alonso is faster"
+    } else if (LECQ$Speed[i] > VERQ$Speed[i] & LECQ$Speed[i] > ALOQ$Speed[i]) {
+      VERQ$faster[i] <- "Leclerc is faster"
+    } else {
+      VERQ$faster[i] <- "Verstappen is faster"
+    }
+  } else {
+    VERQ$faster[i] <-"Verstappen is faster"
+  }
+}
+LapDataVERMonaco<- data.frame(X = VERQ$X, Y = VERQ$Y, Speed=VERQ$Speed, Faster=VERQ$faster)
+
+pVERM<-ggplot(LapDataVERMonaco, aes(x = X, y = Y)) +
+  geom_path(size = 8, linetype = "solid", color = "black") +
+  geom_segment(aes(x = lag(X), y = lag(Y), xend = X, yend = Y, color = Faster,group=Faster),
+               size = 3, lineend = "round") +
+  scale_color_manual(values = c("Verstappen is faster" = "#3671C6", "Leclerc is faster" = "#F91536","Alonso is faster"="#358C75"))+
+  coord_flip()+coord_equal()+
+  theme_classic()+theme(panel.background = element_rect(fill = "white", color = "white"),
+                        plot.background = element_rect(fill = "white", color = "white"),
+                        axis.line = element_blank(),
+                        axis.text = element_blank(),
+                        axis.title = element_blank(),
+                        plot.title=element_text(size = 18, hjust = 0.5),
+                        plot.subtitle=element_text(size = 15, hjust = 0.5),
+                        plot.caption = element_text(size = 11, hjust=0.5),
+                        legend.text=element_text(size=13),
+                        legend.title=element_text(size=13))+
+  
+  labs(title="VER, ALO and LEC fastest lap comparison",subtitle="2023 Monaco GP",caption = "@f1.datascience")
+pVERM
+
+```
+
+This graph shows the which driver from the top three in qualifying is fastest at which parts of the track, Red Bull advantage is clearly on the straights, while the Ferrari and Aston Martin are faster in the curves and the twisty parts of the circuit. 
+
+## Race Analysis
+
+### Results
+
+```{r}
+setwd("/Users/ainefernandez/documents/F1DataScience")
+resultsMonaco<-read.csv('ResultsMonaco.csv')
+left_label <- paste(resultsMonaco$Driver, round(resultsMonaco$GridPos),sep=", ")
+right_label <- paste(resultsMonaco$Driver, round(resultsMonaco$RacePos),sep=", ")
+p <- ggplot(resultsMonaco) + 
+  geom_segment(aes(x=1, xend=2, y=GridPos, yend=RacePos, col=Driver), size=1, show.legend=F) +
+  geom_vline(xintercept=1, linetype="dashed", size=.1) +
+  geom_vline(xintercept=2, linetype="dashed", size=.1) +
+  scale_color_manual(values = c("VER"="#3671C6","PER"="#3671C6","ALO"="#358C75","SAI"="#F91536","HAM"="#6CD3BF","STR"="#358C75","RUS"="#6CD3BF","BOT"="#C92D4B","GAS"="#2293D1","ALB"="#37BEDD",
+                                "TSU"="#5E8FAA","SAR"="#37BEDD","MAG"="#B6BABD","DEV"="#5E8FAA","HUL"="#B6BABD","ZHO"="#C92D4B","NOR"="#F58020","OCO"="#2293D1","LEC"="#F91536","PIA"="#F58020")) +
+  scale_y_reverse() + 
+  geom_text(aes(y = GridPos, x = 1, label = left_label), hjust = 1, size = 4) +
+  geom_text(aes(y = RacePos, x = 2, label = right_label), hjust = 0, size = 4) +
+  geom_text(label = "Grid Position", x = 1, y = max(resultsMonaco$GridPos, resultsMonaco$RacePos) * 1.1, hjust = 1.2, size = 5) +
+  geom_text(label = "Race Position", x = 2, y = max(resultsMonaco$GridPos, resultsMonaco$RacePos) * 1.1, hjust = -0.1, size = 5) +
+  theme(panel.background = element_blank(), 
+        panel.grid = element_blank(),
+        axis.ticks.y = element_blank(), 
+        axis.text.x = element_blank(),
+        panel.border = element_blank(),
+        axis.ticks.x = element_blank(),
+        axis.title.x = element_blank(), 
+        axis.title.y=element_blank(),
+        plot.title=element_text(size = 18, hjust = 0.5),
+        plot.subtitle=element_text(size = 15, hjust = 0.5),
+        plot.caption = element_text(size = 11, hjust=0.5),
+        legend.text=element_text(size=13),
+        legend.title=element_text(size=13))+
+  labs(title="Grid and race position",subtitle="2023 Monaco GP",caption = "@f1.datascience")
+p
+
+```
+
+The biggest losers of the Monaco GP are: Tsunoda, 6 positions lost & Sainz, 4 positions lost 
+
+The biggest winners of the Monaco GP are: Zhou, 6 positions gained, Bottas, 4 positions gained & Russell, 3 positions gained
+
+### Undercut vs Overcut 
+
+```{r}
+setwd("/Users/ainefernandez/documents/F1DataScience")
+laptime_data <- data.frame(
+  Lap = rep(30:35, 3),                      
+  Driver = rep(c("OCO", "SAI", "HAM"), each = 6),  
+  LapTime = c(77.334, 77.331, 94.668, 79.289, 76.950, 77.095,   
+              77.220, 77.465, 77.180, 93.612, 80.767, 76.628,
+              77.742, 95.467, 78.165, 75.650, 78.357, 77.159))
+
+
+uCarlos<-ggplot(laptime_data, aes(x = Lap, y = LapTime, color = Driver)) +
+  geom_line(size=1) +
+  geom_point(size=3)+
+  scale_color_manual(values=c("HAM"="#6CD3BF","OCO"="#2293D1","SAI"="#F91536"))+
+  theme_bw()+
+  theme(panel.background=element_rect(fill="white", color="white"),
+        plot.background=element_rect(fill="white", color="white"),
+        plot.title=element_text(size=18, hjust=0.5),
+        plot.subtitle=element_text(size=15, hjust=0.5),
+        plot.caption=element_text(size=11, hjust=0.5))+
+  labs(x = "Lap", y = "Lap Time (s)",title="OCO, HAM and SAI laptimes comparison",subtitle ="2023 Monaco GP (30-35)",caption = "@f1.datascience" )
+ 
+uCarlos
+```
+
+Hamilton attempted an undercut on Sainz, but his effort was unsuccessful since Sainz's in-lap was faster than Hamilton's out-lap. Nevertheless, the Ferrari driver became frustrated as he was unable to overtake Ocon, despite it being his initial plan
+
+### Rain Chaos 
+
+```{r}
+library(gridExtra)
+setwd("/Users/ainefernandez/documents/F1DataScience")
+monacorain <- read.csv("Monaco2023.csv")
+L1 <- filter(monacorain, Lap == 51)
+L2 <- filter(monacorain, Lap == 52)
+L3 <- filter(monacorain, Lap == 53)
+L4 <- filter(monacorain, Lap == 54)
+L5 <- filter(monacorain, Lap == 55)
+
+p1 <- ggplot(L1, aes(x = X, y = Y)) +
+  geom_path(size = 8, linetype = "solid", color = "black") +
+  geom_segment(aes(x = lag(X), y = lag(Y), xend = X, yend = Y, color = Fastest_compound),
+               size = 3, lineend = "round") +
+  scale_color_manual(values = c("SLICK" = "gray", "INTERMEDIATE" = "#4E841A")) +
+  coord_flip() + coord_equal() +
+  theme_classic() +
+  theme(panel.background = element_rect(fill = "white", color = "white"),
+        plot.background = element_rect(fill = "white", color = "white"),
+        axis.line = element_blank(),
+        axis.text = element_blank(),
+        axis.title = element_blank(),
+        plot.title = element_text(size = 18, hjust = 0.5),
+        plot.subtitle = element_text(size = 15, hjust = 0.5),
+        plot.caption = element_text(size = 13, hjust = 0.5),
+        legend.text = element_text(size = 13),
+        legend.title = element_text(size = 13)) +
+  labs(title = "Slicks vs Intermediates", subtitle = "Lap 51", caption = "@f1.datascience") +
+  theme(legend.position = "none")
+p1
+p2 <- ggplot(L2, aes(x = X, y = Y)) +
+  geom_path(size = 8, linetype = "solid", color = "black") +
+  geom_segment(aes(x = lag(X), y = lag(Y), xend = X, yend = Y, color = Fastest_compound),
+               size = 3, lineend = "round") +
+  scale_color_manual(values = c("SLICK" = "gray", "INTERMEDIATE" = "#4E841A")) +
+  coord_flip() + coord_equal() +
+  theme_classic() +
+  theme(panel.background = element_rect(fill = "white", color = "white"),
+        plot.background = element_rect(fill = "white", color = "white"),
+        axis.line = element_blank(),
+        axis.text = element_blank(),
+        axis.title = element_blank(),
+        plot.title = element_text(size = 18, hjust = 0.5),
+        plot.subtitle = element_text(size = 15, hjust = 0.5),
+        plot.caption = element_text(size = 13, hjust = 0.5),
+        legend.text = element_text(size = 13),
+        legend.title = element_text(size = 13)) +
+  labs(title = "Slicks vs Intermediates", subtitle = "Lap 52", caption = "@f1.datascience") +
+  theme(legend.position = "none")
+p2
+
+p3 <- ggplot(L3, aes(x = X, y = Y)) +
+  geom_path(size = 8, linetype = "solid", color = "black") +
+  geom_segment(aes(x = lag(X), y = lag(Y), xend = X, yend = Y, color = Fastest_compound),
+               size = 3, lineend = "round") +
+  scale_color_manual(values = c("SLICK" = "gray", "INTERMEDIATE" = "#4E841A")) +
+  coord_flip() + coord_equal() +
+  theme_classic() +
+  theme(panel.background = element_rect(fill = "white", color = "white"),
+        plot.background = element_rect(fill = "white", color = "white"),
+        axis.line = element_blank(),
+        axis.text = element_blank(),
+        axis.title = element_blank(),
+        plot.title = element_text(size = 18, hjust = 0.5),
+        plot.subtitle = element_text(size = 15, hjust = 0.5),
+        plot.caption = element_text(size = 13, hjust = 0.5),
+        legend.text = element_text(size = 13),
+        legend.title = element_text(size = 13)) +
+  labs(title = "Slicks vs Intermediates", subtitle = "Lap 53", caption = "@f1.datascience") +
+  theme(legend.position = "none")
+p3
+
+p4 <- ggplot(L4, aes(x = X, y = Y)) +
+  geom_path(size = 8, linetype = "solid", color = "black") +
+  geom_segment(aes(x = lag(X), y = lag(Y), xend = X, yend = Y, color = Fastest_compound),
+               size = 3, lineend = "round") +
+  scale_color_manual(values = c("SLICK" = "gray", "INTERMEDIATE" = "#4E841A")) +
+  coord_flip() + coord_equal() +
+  theme_classic() +
+  theme(panel.background = element_rect(fill = "white", color = "white"),
+        plot.background = element_rect(fill = "white", color = "white"),
+        axis.line = element_blank(),
+        axis.text = element_blank(),
+        axis.title = element_blank(),
+        plot.title = element_text(size = 18, hjust = 0.5),
+        plot.subtitle = element_text(size = 15, hjust = 0.5),
+        plot.caption = element_text(size = 13, hjust = 0.5),
+        legend.text = element_text(size = 13),
+        legend.title = element_text(size = 13)) +
+  labs(title = "Slicks vs Intermediates", subtitle = "Lap 54", caption = "@f1.datascience") +
+  theme(legend.position = "none")
+p4
+
+p5 <- ggplot(L5, aes(x = X, y = Y)) +
+  geom_path(size = 8, linetype = "solid", color = "black") +
+  geom_segment(aes(x = lag(X), y = lag(Y), xend = X, yend = Y, color = Fastest_compound),
+               size = 3, lineend = "round") +
+  scale_color_manual(values = c("SLICK" = "gray", "INTERMEDIATE" = "#4E841A")) +
+  coord_flip() + coord_equal() +
+  theme_classic() +
+  theme(panel.background = element_rect(fill = "white", color = "white"),
+        plot.background = element_rect(fill = "white", color = "white"),
+        axis.line = element_blank(),
+        axis.text = element_blank(),
+        axis.title = element_blank(),
+        plot.title = element_text(size = 18, hjust = 0.5),
+        plot.subtitle = element_text(size = 15, hjust = 0.5),
+        plot.caption = element_text(size = 13, hjust = 0.5),
+        legend.text = element_text(size = 13),
+        legend.title = element_text(size = 13)) +
+  labs(title = "Slicks vs Intermediates", subtitle = "Lap 55", caption = "@f1.datascience") +
+  theme(legend.position = "none")
+
+p5
+
+
+```
+
+When the rain arrived, chaos ensued as numerous drivers on slick tires struggled to maintain control on the slippery track, resulting in several collisions with the barriers. Some teams initially believed that the rain would only be a light drizzle and opted to stick with the slicks. In the end, they had to dive into the pits again for inters
+
+
+### Norris shines in the wet
+
+```{r}
+setwd("/Users/ainefernandez/documents/F1DataScience")
+monaco<-read.csv("racepacemonacolando.csv")
+monlando<-ggplot(monaco, aes(x=LapNumber, y=LapTimeSeconds, col=Driver)) +
+  geom_line(size=1) +
+  geom_point(size=3)+
+  scale_color_manual(values=c("VER"="#3671C6","NOR"="#F58020","SAI"="#F91536"))+
+  scale_y_continuous(limits=c(80,110),breaks=seq(80, 110, by = 5))+
+  scale_x_continuous(breaks=seq(56,78, by = 2))+
+  theme_bw()+
+  labs(x = "Lap", y = "Lap Time (s)",title="VER, NOR and SAI laptimes comparison",subtitle ="2023 Monaco GP (56-78)",caption = "@f1.datascience" )+
+  theme(panel.background=element_rect(fill="white", color="white"),
+        plot.background=element_rect(fill="white", color="white"),
+        plot.title=element_text(size=18, hjust=0.5),
+        plot.subtitle=element_text(size=15, hjust=0.5),
+        plot.caption=element_text(size=11, hjust=0.5))
+
+monlando
+```
+
+Once Lando Norris switched to inters, his McLaren showcased impressive speed. He proved to be one of the, if not the, fastest drivers on the track with those inters. In fact, he even started lapping faster than Verstappen, the race leader himself. Norris overtook  Yuki Tsunoda and was catching Carlos Sainz fast. However, this stint unfortunately didn't last long enough to put substantial pressure on Sainz. It's possible that the McLaren thrives in wet conditions more than in dry ones!
