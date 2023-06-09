@@ -1,0 +1,28 @@
+,40
+Time,0 days 01:23:56.068000
+DriverNumber,55
+LapTime,0 days 00:01:12.734000
+LapNumber,21
+PitOutTime,
+PitInTime,
+Sector1Time,0 days 00:00:21.696000
+Sector2Time,0 days 00:00:29.257000
+Sector3Time,0 days 00:00:21.781000
+Sector1SessionTime,0 days 01:23:05.030000
+Sector2SessionTime,0 days 01:23:34.287000
+Sector3SessionTime,0 days 01:23:56.068000
+SpeedI1,288.0
+SpeedI2,307.0
+SpeedFL,292.0
+SpeedST,326.0
+IsPersonalBest,True
+Compound,SOFT
+TyreLife,2.0
+FreshTyre,True
+Stint,7
+LapStartTime,0 days 01:22:43.334000
+Team,Ferrari
+Driver,SAI
+TrackStatus,1
+IsAccurate,True
+LapStartDate,2023-06-03 15:07:43.343000
