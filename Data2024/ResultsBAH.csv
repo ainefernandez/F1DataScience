@@ -1,0 +1,21 @@
+DriverNumber,Abbreviation,TeamName,CountryCode,Position,GridPosition
+1,VER,Red Bull Racing,NED,1,1
+16,LEC,Ferrari,MON,4,2
+63,RUS,Mercedes,GBR,5,3
+55,SAI,Ferrari,ESP,3,4
+11,PER,Red Bull Racing,MEX,2,5
+14,ALO,Aston Martin,ESP,9,6
+4,NOR,McLaren,GBR,6,7
+81,PIA,McLaren,AUS,8,8
+44,HAM,Mercedes,GBR,7,9
+27,HUL,Haas F1 Team,GER,16,10
+22,TSU,RB,JPN,14,11
+18,STR,Aston Martin,CAN,10,12
+23,ALB,Williams,THA,15,13
+3,RIC,RB,AUS,13,14
+20,MAG,Haas F1 Team,DEN,12,15
+77,BOT,Kick Sauber,FIN,19,16
+24,ZHO,Kick Sauber,CHN,11,17
+2,SAR,Williams,USA,20,18
+31,OCO,Alpine,FRA,17,19
+10,GAS,Alpine,FRA,18,20

@@ -1,0 +1,26 @@
+,Team,Compound,LapsCount
+0,Alpine,HARD,7
+1,Alpine,MEDIUM,95
+2,Aston Martin,HARD,41
+3,Aston Martin,MEDIUM,80
+4,Ferrari,HARD,19
+5,Ferrari,MEDIUM,106
+6,Ferrari,SOFT,16
+7,Ferrari,nan,4
+8,Haas F1 Team,HARD,83
+9,Haas F1 Team,MEDIUM,86
+10,Kick Sauber,HARD,35
+11,Kick Sauber,MEDIUM,75
+12,Kick Sauber,SOFT,3
+13,McLaren,HARD,41
+14,McLaren,MEDIUM,70
+15,Mercedes,MEDIUM,107
+16,Mercedes,SOFT,9
+17,RB,HARD,50
+18,RB,MEDIUM,60
+19,RB,SOFT,13
+20,Red Bull Racing,HARD,17
+21,Red Bull Racing,MEDIUM,102
+22,Williams,HARD,20
+23,Williams,MEDIUM,79
+24,Williams,SOFT,22

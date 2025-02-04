@@ -1,0 +1,21 @@
+,DriverNumber,BroadcastName,Abbreviation,DriverId,TeamName,TeamColor,TeamId,FirstName,LastName,FullName,HeadshotUrl,CountryCode,Position,ClassifiedPosition,GridPosition,Q1,Q2,Q3,Time,Status,Points
+1,1,nan,nan,max_verstappen,nan,nan,red_bull,nan,nan,nan,nan,nan,1.0,1,1.0,,,,0 days 00:26:41.389000,Finished,8.0
+81,81,nan,nan,piastri,nan,nan,mclaren,nan,nan,nan,nan,nan,2.0,2,3.0,,,,0 days 00:00:04.616000,Finished,7.0
+4,4,nan,nan,norris,nan,nan,mclaren,nan,nan,nan,nan,nan,3.0,3,2.0,,,,0 days 00:00:05.348000,Finished,6.0
+63,63,nan,nan,russell,nan,nan,mercedes,nan,nan,nan,nan,nan,4.0,4,4.0,,,,0 days 00:00:08.354000,Finished,5.0
+55,55,nan,nan,sainz,nan,nan,ferrari,nan,nan,nan,nan,nan,5.0,5,5.0,,,,0 days 00:00:09.989000,Finished,4.0
+44,44,nan,nan,hamilton,nan,nan,mercedes,nan,nan,nan,nan,nan,6.0,6,6.0,,,,0 days 00:00:11.207000,Finished,3.0
+16,16,nan,nan,leclerc,nan,nan,ferrari,nan,nan,nan,nan,nan,7.0,7,10.0,,,,0 days 00:00:13.424000,Finished,2.0
+11,11,nan,nan,perez,nan,nan,red_bull,nan,nan,nan,nan,nan,8.0,8,7.0,,,,0 days 00:00:17.409000,Finished,1.0
+20,20,nan,nan,kevin_magnussen,nan,nan,haas,nan,nan,nan,nan,nan,9.0,9,11.0,,,,0 days 00:00:24.067000,Finished,0.0
+18,18,nan,nan,stroll,nan,nan,aston_martin,nan,nan,nan,nan,nan,10.0,10,12.0,,,,0 days 00:00:30.175000,Finished,0.0
+31,31,nan,nan,ocon,nan,nan,alpine,nan,nan,nan,nan,nan,11.0,11,8.0,,,,0 days 00:00:30.839000,Finished,0.0
+10,10,nan,nan,gasly,nan,nan,alpine,nan,nan,nan,nan,nan,12.0,12,9.0,,,,0 days 00:00:31.308000,Finished,0.0
+22,22,nan,nan,tsunoda,nan,nan,rb,nan,nan,nan,nan,nan,13.0,13,14.0,,,,0 days 00:00:35.452000,Finished,0.0
+3,3,nan,nan,ricciardo,nan,nan,rb,nan,nan,nan,nan,nan,14.0,14,16.0,,,,0 days 00:00:39.397000,Finished,0.0
+14,14,nan,nan,alonso,nan,nan,aston_martin,nan,nan,nan,nan,nan,15.0,15,13.0,,,,0 days 00:00:43.155000,Finished,0.0
+2,2,nan,nan,sargeant,nan,nan,williams,nan,nan,nan,nan,nan,16.0,16,15.0,,,,0 days 00:00:44.076000,Finished,0.0
+23,23,A ALBON,ALB,albon,Williams,64C4FF,williams,Alexander,Albon,Alexander Albon,https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/A/ALEALB01_Alexander_Albon/alealb01.png.transform/1col/image.png,THA,17.0,17,0.0,,,,0 days 00:00:44.673000,Finished,0.0
+77,77,nan,nan,bottas,nan,nan,sauber,nan,nan,nan,nan,nan,18.0,18,18.0,,,,0 days 00:00:46.511000,Finished,0.0
+27,27,nan,nan,hulkenberg,nan,nan,haas,nan,nan,nan,nan,nan,19.0,19,17.0,,,,0 days 00:00:48.423000,Finished,0.0
+24,24,nan,nan,zhou,nan,nan,sauber,nan,nan,nan,nan,nan,20.0,20,19.0,,,,0 days 00:00:53.143000,Finished,0.0

@@ -1,0 +1,280 @@
+,Driver,Position,Status,Finish,Race
+0,VER,1,Finished,Win,1
+1,PER,2,Finished,Podium,1
+2,SAI,3,Finished,Podium,1
+3,LEC,4,Finished,Points,1
+4,RUS,5,Finished,Points,1
+5,NOR,6,Finished,Points,1
+6,HAM,7,Finished,Points,1
+7,PIA,8,Finished,Points,1
+8,ALO,9,Finished,Points,1
+9,STR,10,Finished,Points,1
+10,ZHO,11,+1 Lap,Out of the points,1
+11,MAG,12,+1 Lap,Out of the points,1
+12,RIC,13,+1 Lap,Out of the points,1
+13,TSU,14,+1 Lap,Out of the points,1
+14,ALB,15,+1 Lap,Out of the points,1
+15,HUL,16,+1 Lap,Out of the points,1
+16,OCO,17,+1 Lap,Out of the points,1
+17,GAS,18,+1 Lap,Out of the points,1
+18,BOT,19,+1 Lap,Out of the points,1
+19,SAR,20,+2 Laps,Out of the points,1
+20,VER,1,Finished,Win,1
+21,PER,2,Finished,Podium,1
+22,LEC,3,Finished,Podium,1
+23,PIA,4,Finished,Points,1
+24,ALO,5,Finished,Points,1
+25,RUS,6,Finished,Points,1
+26,BEA,7,Finished,Points,1
+27,NOR,8,Finished,Points,1
+28,HAM,9,Finished,Points,1
+29,HUL,10,Finished,Points,1
+30,ALB,11,Finished,Out of the points,1
+31,MAG,12,Finished,Out of the points,1
+32,OCO,13,+1 Lap,Out of the points,1
+33,SAR,14,+1 Lap,Out of the points,1
+34,TSU,15,+1 Lap,Out of the points,1
+35,RIC,16,+1 Lap,Out of the points,1
+36,BOT,17,+1 Lap,Out of the points,1
+37,ZHO,18,+1 Lap,Out of the points,1
+38,STR,19,Accident,DNF,1
+39,GAS,20,Gearbox,DNF,1
+40,SAI,1,Finished,Win,1
+41,LEC,2,Finished,Podium,1
+42,NOR,3,Finished,Podium,1
+43,PIA,4,Finished,Points,1
+44,PER,5,Finished,Points,1
+45,STR,6,Finished,Points,1
+46,TSU,7,Finished,Points,1
+47,ALO,8,Finished,Points,1
+48,HUL,9,Finished,Points,1
+49,MAG,10,+1 Lap,Points,1
+50,ALB,11,+1 Lap,Out of the points,1
+51,RIC,12,+1 Lap,Out of the points,1
+52,GAS,13,+1 Lap,Out of the points,1
+53,BOT,14,+1 Lap,Out of the points,1
+54,ZHO,15,+1 Lap,Out of the points,1
+55,OCO,16,+1 Lap,Out of the points,1
+56,RUS,17,Accident,DNF,1
+57,HAM,18,Engine,DNF,1
+58,VER,19,Brakes,DNF,1
+59,VER,1,Finished,Win,1
+60,PER,2,Finished,Podium,1
+61,SAI,3,Finished,Podium,1
+62,LEC,4,Finished,Points,1
+63,NOR,5,Finished,Points,1
+64,ALO,6,Finished,Points,1
+65,RUS,7,Finished,Points,1
+66,PIA,8,Finished,Points,1
+67,HAM,9,Finished,Points,1
+68,TSU,10,+1 Lap,Points,1
+69,HUL,11,+1 Lap,Out of the points,1
+70,STR,12,+1 Lap,Out of the points,1
+71,MAG,13,+1 Lap,Out of the points,1
+72,BOT,14,+1 Lap,Out of the points,1
+73,OCO,15,+1 Lap,Out of the points,1
+74,GAS,16,+1 Lap,Out of the points,1
+75,SAR,17,+1 Lap,Out of the points,1
+76,ZHO,18,Gearbox,DNF,1
+77,RIC,19,Accident,DNF,1
+78,ALB,20,Accident,DNF,1
+79,VER,1,Finished,Win,1
+80,NOR,2,Finished,Podium,1
+81,PER,3,Finished,Podium,1
+82,LEC,4,Finished,Points,1
+83,SAI,5,Finished,Points,1
+84,RUS,6,Finished,Points,1
+85,ALO,7,Finished,Points,1
+86,PIA,8,Finished,Points,1
+87,HAM,9,Finished,Points,1
+88,HUL,10,Finished,Points,1
+89,OCO,11,Finished,Out of the points,1
+90,ALB,12,Finished,Out of the points,1
+91,GAS,13,Finished,Out of the points,1
+92,ZHO,14,Finished,Out of the points,1
+93,STR,15,Finished,Out of the points,1
+94,MAG,16,Finished,Out of the points,1
+95,SAR,17,Finished,Out of the points,1
+96,RIC,18,Retired,DNF,1
+97,TSU,19,Retired,DNF,1
+98,BOT,20,Retired,DNF,1
+99,NOR,1,Finished,Win,1
+100,VER,2,Finished,Podium,1
+101,LEC,3,Finished,Podium,1
+102,PER,4,Finished,Points,1
+103,SAI,5,Finished,Points,1
+104,HAM,6,Finished,Points,1
+105,TSU,7,Finished,Points,1
+106,RUS,8,Finished,Points,1
+107,ALO,9,Finished,Points,1
+108,OCO,10,Finished,Points,1
+109,HUL,11,Finished,Out of the points,1
+110,GAS,12,Finished,Out of the points,1
+111,PIA,13,Finished,Out of the points,1
+112,ZHO,14,Finished,Out of the points,1
+113,RIC,15,Finished,Out of the points,1
+114,BOT,16,Finished,Out of the points,1
+115,STR,17,Finished,Out of the points,1
+116,ALB,18,Finished,Out of the points,1
+117,MAG,19,Finished,Out of the points,1
+118,SAR,20,Collision,DNF,1
+119,VER,1,Finished,Win,1
+120,NOR,2,Finished,Podium,1
+121,LEC,3,Finished,Podium,1
+122,PIA,4,Finished,Points,1
+123,SAI,5,Finished,Points,1
+124,HAM,6,Finished,Points,1
+125,RUS,7,Finished,Points,1
+126,PER,8,Finished,Points,1
+127,STR,9,Finished,Points,1
+128,TSU,10,+1 Lap,Points,1
+129,HUL,11,+1 Lap,Out of the points,1
+130,MAG,12,+1 Lap,Out of the points,1
+131,RIC,13,+1 Lap,Out of the points,1
+132,OCO,14,+1 Lap,Out of the points,1
+133,ZHO,15,+1 Lap,Out of the points,1
+134,GAS,16,+1 Lap,Out of the points,1
+135,SAR,17,+1 Lap,Out of the points,1
+136,BOT,18,+1 Lap,Out of the points,1
+137,ALO,19,+1 Lap,Out of the points,1
+138,ALB,20,Retired,DNF,1
+139,LEC,1,Finished,Win,1
+140,PIA,2,Finished,Podium,1
+141,SAI,3,Finished,Podium,1
+142,NOR,4,Finished,Points,1
+143,RUS,5,Finished,Points,1
+144,VER,6,Finished,Points,1
+145,HAM,7,Finished,Points,1
+146,TSU,8,+1 Lap,Points,1
+147,ALB,9,+1 Lap,Points,1
+148,GAS,10,+1 Lap,Points,1
+149,ALO,11,+2 Laps,Out of the points,1
+150,RIC,12,+2 Laps,Out of the points,1
+151,BOT,13,+2 Laps,Out of the points,1
+152,STR,14,+2 Laps,Out of the points,1
+153,SAR,15,+2 Laps,Out of the points,1
+154,ZHO,16,+2 Laps,Out of the points,1
+155,OCO,17,Collision,DNF,1
+156,PER,18,Collision,DNF,1
+157,HUL,19,Collision,DNF,1
+158,MAG,20,Collision,DNF,1
+159,VER,1,Finished,Win,1
+160,NOR,2,Finished,Podium,1
+161,RUS,3,Finished,Podium,1
+162,HAM,4,Finished,Points,1
+163,PIA,5,Finished,Points,1
+164,ALO,6,Finished,Points,1
+165,STR,7,Finished,Points,1
+166,RIC,8,Finished,Points,1
+167,GAS,9,Finished,Points,1
+168,OCO,10,Finished,Points,1
+169,HUL,11,Finished,Out of the points,1
+170,MAG,12,Finished,Out of the points,1
+171,BOT,13,Finished,Out of the points,1
+172,TSU,14,Finished,Out of the points,1
+173,ZHO,15,+1 Lap,Out of the points,1
+174,SAI,16,Collision,DNF,1
+175,ALB,17,Collision,DNF,1
+176,PER,18,Accident,DNF,1
+177,LEC,19,Engine,DNF,1
+178,SAR,20,Accident,DNF,1
+179,VER,1,Finished,Win,1
+180,NOR,2,Finished,Podium,1
+181,HAM,3,Finished,Podium,1
+182,RUS,4,Finished,Points,1
+183,LEC,5,Finished,Points,1
+184,SAI,6,Finished,Points,1
+185,PIA,7,Finished,Points,1
+186,PER,8,Finished,Points,1
+187,GAS,9,Finished,Points,1
+188,OCO,10,Finished,Points,1
+189,HUL,11,Finished,Out of the points,1
+190,ALO,12,+1 Lap,Out of the points,1
+191,ZHO,13,+1 Lap,Out of the points,1
+192,STR,14,+1 Lap,Out of the points,1
+193,RIC,15,+1 Lap,Out of the points,1
+194,BOT,16,+1 Lap,Out of the points,1
+195,MAG,17,+1 Lap,Out of the points,1
+196,ALB,18,+1 Lap,Out of the points,1
+197,TSU,19,+1 Lap,Out of the points,1
+198,SAR,20,+2 Laps,Out of the points,1
+199,RUS,1,Finished,Win,1
+200,PIA,2,Finished,Podium,1
+201,SAI,3,Finished,Podium,1
+202,HAM,4,Finished,Points,1
+203,VER,5,Finished,Points,1
+204,HUL,6,Finished,Points,1
+205,PER,7,Finished,Points,1
+206,MAG,8,Finished,Points,1
+207,RIC,9,Finished,Points,1
+208,GAS,10,Finished,Points,1
+209,LEC,11,Finished,Out of the points,1
+210,OCO,12,Finished,Out of the points,1
+211,STR,13,+1 Lap,Out of the points,1
+212,TSU,14,+1 Lap,Out of the points,1
+213,ALB,15,+1 Lap,Out of the points,1
+214,BOT,16,+1 Lap,Out of the points,1
+215,ZHO,17,+1 Lap,Out of the points,1
+216,ALO,18,+1 Lap,Out of the points,1
+217,SAR,19,+2 Laps,Out of the points,1
+218,NOR,20,+7 Laps,DNF,1
+219,HAM,1,Finished,Win,1
+220,VER,2,Finished,Podium,1
+221,NOR,3,Finished,Podium,1
+222,PIA,4,Finished,Points,1
+223,SAI,5,Finished,Points,1
+224,HUL,6,Finished,Points,1
+225,STR,7,Finished,Points,1
+226,ALO,8,Finished,Points,1
+227,ALB,9,Finished,Points,1
+228,TSU,10,Finished,Points,1
+229,SAR,11,Finished,Out of the points,1
+230,MAG,12,Finished,Out of the points,1
+231,RIC,13,+1 Lap,Out of the points,1
+232,LEC,14,+1 Lap,Out of the points,1
+233,BOT,15,+1 Lap,Out of the points,1
+234,OCO,16,+2 Laps,Out of the points,1
+235,PER,17,+2 Laps,Out of the points,1
+236,ZHO,18,+2 Laps,Out of the points,1
+237,RUS,19,Water pressure,DNF,1
+238,GAS,20,Gearbox,DNF,1
+239,PIA,1,Finished,Win,1
+240,NOR,2,Finished,Podium,1
+241,HAM,3,Finished,Podium,1
+242,LEC,4,Finished,Points,1
+243,VER,5,Finished,Points,1
+244,SAI,6,Finished,Points,1
+245,PER,7,Finished,Points,1
+246,RUS,8,Finished,Points,1
+247,TSU,9,Finished,Points,1
+248,STR,10,Finished,Points,1
+249,ALO,11,Finished,Out of the points,1
+250,RIC,12,+1 Lap,Out of the points,1
+251,HUL,13,+1 Lap,Out of the points,1
+252,ALB,14,+1 Lap,Out of the points,1
+253,MAG,15,+1 Lap,Out of the points,1
+254,BOT,16,+1 Lap,Out of the points,1
+255,SAR,17,+1 Lap,Out of the points,1
+256,OCO,18,+1 Lap,Out of the points,1
+257,ZHO,19,+1 Lap,Out of the points,1
+258,GAS,20,Hydraulics,DNF,1
+259,HAM,1,Finished,Win,1
+260,PIA,2,Finished,Podium,1
+261,LEC,3,Finished,Podium,1
+262,VER,4,Finished,Points,1
+263,NOR,5,Finished,Points,1
+264,SAI,6,Finished,Points,1
+265,PER,7,Finished,Points,1
+266,ALO,8,Finished,Points,1
+267,OCO,9,Finished,Points,1
+268,RIC,10,Finished,Points,1
+269,STR,11,Finished,Out of the points,1
+270,ALB,12,Finished,Out of the points,1
+271,GAS,13,Finished,Out of the points,1
+272,MAG,14,Finished,Out of the points,1
+273,BOT,15,Finished,Out of the points,1
+274,TSU,16,Finished,Out of the points,1
+275,SAR,17,Finished,Out of the points,1
+276,HUL,18,Finished,Out of the points,1
+277,ZHO,19,Retired,DNF,1
+278,RUS,20,Disqualified,DSQ,1

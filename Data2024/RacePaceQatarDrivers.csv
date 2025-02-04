@@ -1,0 +1,718 @@
+Driver,Team,LapTime,LapNumber
+VER,Red Bull Racing,86.724,5.0
+VER,Red Bull Racing,86.502,6.0
+VER,Red Bull Racing,86.376,7.0
+VER,Red Bull Racing,86.28,8.0
+VER,Red Bull Racing,86.2,9.0
+VER,Red Bull Racing,85.973,10.0
+VER,Red Bull Racing,85.808,11.0
+VER,Red Bull Racing,85.903,12.0
+VER,Red Bull Racing,85.843,13.0
+VER,Red Bull Racing,85.812,14.0
+VER,Red Bull Racing,85.698,15.0
+VER,Red Bull Racing,85.605,16.0
+VER,Red Bull Racing,85.46,17.0
+VER,Red Bull Racing,85.079,18.0
+VER,Red Bull Racing,85.309,19.0
+VER,Red Bull Racing,84.896,20.0
+VER,Red Bull Racing,84.97,21.0
+VER,Red Bull Racing,84.908,22.0
+VER,Red Bull Racing,84.856,23.0
+VER,Red Bull Racing,84.825,24.0
+VER,Red Bull Racing,84.702,25.0
+VER,Red Bull Racing,84.775,26.0
+VER,Red Bull Racing,84.72,27.0
+VER,Red Bull Racing,84.719,28.0
+VER,Red Bull Racing,84.861,29.0
+VER,Red Bull Racing,85.127,30.0
+VER,Red Bull Racing,84.413,31.0
+VER,Red Bull Racing,84.427,32.0
+VER,Red Bull Racing,84.35,33.0
+VER,Red Bull Racing,84.468,34.0
+VER,Red Bull Racing,84.509,43.0
+VER,Red Bull Racing,83.533,44.0
+VER,Red Bull Racing,83.393,45.0
+VER,Red Bull Racing,83.37,46.0
+VER,Red Bull Racing,83.303,47.0
+VER,Red Bull Racing,83.423,48.0
+VER,Red Bull Racing,83.468,49.0
+VER,Red Bull Racing,83.321,50.0
+VER,Red Bull Racing,83.043,51.0
+VER,Red Bull Racing,83.162,52.0
+VER,Red Bull Racing,83.132,53.0
+VER,Red Bull Racing,83.006,54.0
+VER,Red Bull Racing,82.905,55.0
+VER,Red Bull Racing,83.369,56.0
+VER,Red Bull Racing,83.776,57.0
+GAS,Alpine,88.418,6.0
+GAS,Alpine,87.738,7.0
+GAS,Alpine,87.881,8.0
+GAS,Alpine,87.58,9.0
+GAS,Alpine,88.272,10.0
+GAS,Alpine,88.181,11.0
+GAS,Alpine,87.827,12.0
+GAS,Alpine,86.986,13.0
+GAS,Alpine,87.011,14.0
+GAS,Alpine,86.737,15.0
+GAS,Alpine,86.7,16.0
+GAS,Alpine,86.514,17.0
+GAS,Alpine,86.694,18.0
+GAS,Alpine,86.696,19.0
+GAS,Alpine,86.369,20.0
+GAS,Alpine,86.946,21.0
+GAS,Alpine,86.453,22.0
+GAS,Alpine,86.298,23.0
+GAS,Alpine,86.235,24.0
+GAS,Alpine,86.174,25.0
+GAS,Alpine,86.12,26.0
+GAS,Alpine,85.969,27.0
+GAS,Alpine,85.533,28.0
+GAS,Alpine,85.588,29.0
+GAS,Alpine,85.344,30.0
+GAS,Alpine,85.335,31.0
+GAS,Alpine,85.331,32.0
+GAS,Alpine,85.122,33.0
+GAS,Alpine,85.622,34.0
+GAS,Alpine,87.285,43.0
+GAS,Alpine,85.421,44.0
+GAS,Alpine,84.508,45.0
+GAS,Alpine,84.238,46.0
+GAS,Alpine,84.097,47.0
+GAS,Alpine,84.156,48.0
+GAS,Alpine,83.942,49.0
+GAS,Alpine,83.866,50.0
+GAS,Alpine,83.904,51.0
+GAS,Alpine,84.057,52.0
+GAS,Alpine,83.984,53.0
+GAS,Alpine,84.082,54.0
+GAS,Alpine,84.158,55.0
+GAS,Alpine,83.705,56.0
+GAS,Alpine,83.937,57.0
+PER,Red Bull Racing,89.55,5.0
+PER,Red Bull Racing,87.827,6.0
+PER,Red Bull Racing,87.28,7.0
+PER,Red Bull Racing,87.403,8.0
+PER,Red Bull Racing,87.124,9.0
+PER,Red Bull Racing,86.884,10.0
+PER,Red Bull Racing,86.788,11.0
+PER,Red Bull Racing,86.729,12.0
+PER,Red Bull Racing,86.631,13.0
+PER,Red Bull Racing,86.483,14.0
+PER,Red Bull Racing,86.409,15.0
+PER,Red Bull Racing,86.359,16.0
+PER,Red Bull Racing,85.929,17.0
+PER,Red Bull Racing,86.455,18.0
+PER,Red Bull Racing,86.152,19.0
+PER,Red Bull Racing,86.049,20.0
+PER,Red Bull Racing,85.714,21.0
+PER,Red Bull Racing,85.973,22.0
+PER,Red Bull Racing,85.85,23.0
+PER,Red Bull Racing,85.642,24.0
+PER,Red Bull Racing,85.498,25.0
+PER,Red Bull Racing,85.458,26.0
+PER,Red Bull Racing,85.576,27.0
+PER,Red Bull Racing,85.555,28.0
+PER,Red Bull Racing,85.507,29.0
+PER,Red Bull Racing,85.409,30.0
+PER,Red Bull Racing,85.288,31.0
+PER,Red Bull Racing,85.39,32.0
+PER,Red Bull Racing,85.382,33.0
+PER,Red Bull Racing,86.5,34.0
+ALO,Aston Martin,89.044,6.0
+ALO,Aston Martin,88.057,7.0
+ALO,Aston Martin,88.028,8.0
+ALO,Aston Martin,87.644,9.0
+ALO,Aston Martin,88.156,10.0
+ALO,Aston Martin,88.253,11.0
+ALO,Aston Martin,87.906,12.0
+ALO,Aston Martin,87.721,13.0
+ALO,Aston Martin,86.802,14.0
+ALO,Aston Martin,86.7,15.0
+ALO,Aston Martin,86.867,16.0
+ALO,Aston Martin,86.687,17.0
+ALO,Aston Martin,86.744,18.0
+ALO,Aston Martin,86.629,19.0
+ALO,Aston Martin,86.855,20.0
+ALO,Aston Martin,86.37,21.0
+ALO,Aston Martin,86.481,22.0
+ALO,Aston Martin,86.268,23.0
+ALO,Aston Martin,86.377,24.0
+ALO,Aston Martin,86.245,25.0
+ALO,Aston Martin,86.3,26.0
+ALO,Aston Martin,86.085,27.0
+ALO,Aston Martin,85.941,28.0
+ALO,Aston Martin,85.957,29.0
+ALO,Aston Martin,85.893,30.0
+ALO,Aston Martin,85.724,31.0
+ALO,Aston Martin,85.649,32.0
+ALO,Aston Martin,85.797,33.0
+ALO,Aston Martin,87.518,34.0
+ALO,Aston Martin,87.771,43.0
+ALO,Aston Martin,85.477,44.0
+ALO,Aston Martin,85.0,45.0
+ALO,Aston Martin,84.44,46.0
+ALO,Aston Martin,84.383,47.0
+ALO,Aston Martin,84.472,48.0
+ALO,Aston Martin,84.395,49.0
+ALO,Aston Martin,84.057,50.0
+ALO,Aston Martin,84.054,51.0
+ALO,Aston Martin,84.196,52.0
+ALO,Aston Martin,83.993,53.0
+ALO,Aston Martin,83.871,54.0
+ALO,Aston Martin,84.078,55.0
+ALO,Aston Martin,83.885,56.0
+ALO,Aston Martin,83.667,57.0
+LEC,Ferrari,87.556,6.0
+LEC,Ferrari,86.887,7.0
+LEC,Ferrari,87.19,8.0
+LEC,Ferrari,86.914,9.0
+LEC,Ferrari,86.435,10.0
+LEC,Ferrari,86.381,11.0
+LEC,Ferrari,86.027,12.0
+LEC,Ferrari,86.272,13.0
+LEC,Ferrari,85.66,14.0
+LEC,Ferrari,85.805,15.0
+LEC,Ferrari,85.93,16.0
+LEC,Ferrari,85.835,17.0
+LEC,Ferrari,85.496,18.0
+LEC,Ferrari,85.647,19.0
+LEC,Ferrari,85.467,20.0
+LEC,Ferrari,85.323,21.0
+LEC,Ferrari,85.036,22.0
+LEC,Ferrari,85.189,23.0
+LEC,Ferrari,85.133,24.0
+LEC,Ferrari,84.801,25.0
+LEC,Ferrari,85.099,26.0
+LEC,Ferrari,84.749,27.0
+LEC,Ferrari,84.909,28.0
+LEC,Ferrari,84.653,29.0
+LEC,Ferrari,85.168,30.0
+LEC,Ferrari,84.71,31.0
+LEC,Ferrari,84.679,32.0
+LEC,Ferrari,84.9,33.0
+LEC,Ferrari,84.754,34.0
+LEC,Ferrari,85.854,43.0
+LEC,Ferrari,84.012,44.0
+LEC,Ferrari,83.937,45.0
+LEC,Ferrari,83.665,46.0
+LEC,Ferrari,83.722,47.0
+LEC,Ferrari,83.68,48.0
+LEC,Ferrari,83.47,49.0
+LEC,Ferrari,83.405,50.0
+LEC,Ferrari,83.332,51.0
+LEC,Ferrari,83.72,52.0
+LEC,Ferrari,83.242,53.0
+LEC,Ferrari,83.454,54.0
+LEC,Ferrari,83.498,55.0
+LEC,Ferrari,83.356,56.0
+LEC,Ferrari,83.559,57.0
+STR,Aston Martin,93.523,5.0
+STR,Aston Martin,90.935,6.0
+STR,Aston Martin,96.33,7.0
+MAG,Haas F1 Team,88.533,6.0
+MAG,Haas F1 Team,88.075,7.0
+MAG,Haas F1 Team,87.707,8.0
+MAG,Haas F1 Team,87.395,9.0
+MAG,Haas F1 Team,87.601,10.0
+MAG,Haas F1 Team,88.499,11.0
+MAG,Haas F1 Team,87.513,12.0
+MAG,Haas F1 Team,87.321,13.0
+MAG,Haas F1 Team,86.989,14.0
+MAG,Haas F1 Team,86.911,15.0
+MAG,Haas F1 Team,86.797,16.0
+MAG,Haas F1 Team,86.65,17.0
+MAG,Haas F1 Team,86.763,18.0
+MAG,Haas F1 Team,86.607,19.0
+MAG,Haas F1 Team,86.58,20.0
+MAG,Haas F1 Team,86.46,21.0
+MAG,Haas F1 Team,86.377,22.0
+MAG,Haas F1 Team,86.237,23.0
+MAG,Haas F1 Team,86.304,24.0
+MAG,Haas F1 Team,86.106,25.0
+MAG,Haas F1 Team,86.148,26.0
+MAG,Haas F1 Team,90.05,27.0
+MAG,Haas F1 Team,85.682,29.0
+MAG,Haas F1 Team,85.602,30.0
+MAG,Haas F1 Team,85.307,31.0
+MAG,Haas F1 Team,85.877,32.0
+MAG,Haas F1 Team,85.58,33.0
+MAG,Haas F1 Team,86.137,34.0
+MAG,Haas F1 Team,89.014,43.0
+MAG,Haas F1 Team,86.26,44.0
+MAG,Haas F1 Team,85.784,45.0
+MAG,Haas F1 Team,85.823,46.0
+MAG,Haas F1 Team,85.542,47.0
+MAG,Haas F1 Team,85.56,48.0
+MAG,Haas F1 Team,84.603,49.0
+MAG,Haas F1 Team,84.584,50.0
+MAG,Haas F1 Team,84.558,51.0
+MAG,Haas F1 Team,84.593,52.0
+MAG,Haas F1 Team,84.482,53.0
+MAG,Haas F1 Team,84.431,54.0
+MAG,Haas F1 Team,84.259,55.0
+MAG,Haas F1 Team,84.741,56.0
+MAG,Haas F1 Team,84.827,57.0
+TSU,RB,90.04,5.0
+TSU,RB,88.679,6.0
+TSU,RB,88.217,7.0
+TSU,RB,87.737,8.0
+TSU,RB,87.661,9.0
+TSU,RB,89.206,10.0
+TSU,RB,88.174,11.0
+TSU,RB,87.91,12.0
+TSU,RB,88.7,13.0
+TSU,RB,88.832,14.0
+TSU,RB,88.648,15.0
+TSU,RB,87.635,16.0
+TSU,RB,87.433,17.0
+TSU,RB,87.574,18.0
+TSU,RB,87.537,19.0
+TSU,RB,88.247,20.0
+TSU,RB,87.301,21.0
+TSU,RB,87.162,22.0
+TSU,RB,87.139,23.0
+TSU,RB,87.036,24.0
+TSU,RB,86.975,25.0
+TSU,RB,86.725,26.0
+TSU,RB,86.505,27.0
+TSU,RB,86.46,28.0
+TSU,RB,86.505,29.0
+TSU,RB,86.912,30.0
+TSU,RB,86.369,31.0
+TSU,RB,86.456,32.0
+TSU,RB,86.519,33.0
+TSU,RB,86.33,34.0
+TSU,RB,88.689,43.0
+TSU,RB,87.188,44.0
+TSU,RB,86.798,45.0
+TSU,RB,86.367,46.0
+TSU,RB,86.144,47.0
+TSU,RB,86.154,48.0
+TSU,RB,86.28,49.0
+TSU,RB,87.03,50.0
+TSU,RB,87.301,51.0
+TSU,RB,87.78,52.0
+TSU,RB,87.383,53.0
+TSU,RB,87.337,54.0
+TSU,RB,87.433,55.0
+TSU,RB,87.674,56.0
+TSU,RB,87.125,57.0
+ALB,Williams,91.146,5.0
+ALB,Williams,89.921,6.0
+ALB,Williams,88.528,7.0
+ALB,Williams,88.499,8.0
+ALB,Williams,88.038,9.0
+ALB,Williams,87.781,10.0
+ALB,Williams,89.252,11.0
+ALB,Williams,87.299,12.0
+ALB,Williams,87.771,13.0
+ALB,Williams,87.525,14.0
+ALB,Williams,87.793,15.0
+ALB,Williams,87.6,16.0
+ALB,Williams,87.556,17.0
+ALB,Williams,87.321,18.0
+ALB,Williams,87.428,19.0
+ALB,Williams,87.347,20.0
+ALB,Williams,87.42,21.0
+ALB,Williams,87.133,22.0
+ALB,Williams,86.951,23.0
+ALB,Williams,86.968,24.0
+ALB,Williams,86.998,25.0
+ALB,Williams,86.774,26.0
+ALB,Williams,86.663,27.0
+ALB,Williams,86.553,28.0
+ALB,Williams,86.395,29.0
+ALB,Williams,86.708,30.0
+ALB,Williams,86.39,31.0
+ALB,Williams,86.572,32.0
+ALB,Williams,86.303,33.0
+ALB,Williams,87.708,34.0
+ALB,Williams,87.968,43.0
+ALB,Williams,86.524,44.0
+ALB,Williams,85.844,45.0
+ALB,Williams,85.701,46.0
+ALB,Williams,85.559,47.0
+ALB,Williams,85.751,48.0
+ALB,Williams,87.222,49.0
+ALB,Williams,86.781,50.0
+ALB,Williams,86.66,51.0
+ALB,Williams,87.51,52.0
+ALB,Williams,90.321,53.0
+ALB,Williams,88.167,54.0
+ZHO,Kick Sauber,89.258,6.0
+ZHO,Kick Sauber,88.056,7.0
+ZHO,Kick Sauber,88.369,8.0
+ZHO,Kick Sauber,88.078,9.0
+ZHO,Kick Sauber,87.643,10.0
+ZHO,Kick Sauber,88.164,11.0
+ZHO,Kick Sauber,87.973,12.0
+ZHO,Kick Sauber,87.659,13.0
+ZHO,Kick Sauber,87.909,14.0
+ZHO,Kick Sauber,87.024,15.0
+ZHO,Kick Sauber,87.165,16.0
+ZHO,Kick Sauber,87.247,17.0
+ZHO,Kick Sauber,87.02,18.0
+ZHO,Kick Sauber,86.888,19.0
+ZHO,Kick Sauber,86.609,20.0
+ZHO,Kick Sauber,86.594,21.0
+ZHO,Kick Sauber,86.428,22.0
+ZHO,Kick Sauber,86.126,23.0
+ZHO,Kick Sauber,86.397,24.0
+ZHO,Kick Sauber,86.191,25.0
+ZHO,Kick Sauber,85.928,26.0
+ZHO,Kick Sauber,85.912,27.0
+ZHO,Kick Sauber,85.916,28.0
+ZHO,Kick Sauber,85.979,29.0
+ZHO,Kick Sauber,85.849,30.0
+ZHO,Kick Sauber,85.899,31.0
+ZHO,Kick Sauber,85.849,32.0
+ZHO,Kick Sauber,85.659,33.0
+ZHO,Kick Sauber,85.937,34.0
+ZHO,Kick Sauber,88.011,43.0
+ZHO,Kick Sauber,86.299,44.0
+ZHO,Kick Sauber,85.141,45.0
+ZHO,Kick Sauber,85.067,46.0
+ZHO,Kick Sauber,84.936,47.0
+ZHO,Kick Sauber,84.906,48.0
+ZHO,Kick Sauber,84.667,49.0
+ZHO,Kick Sauber,84.428,50.0
+ZHO,Kick Sauber,84.425,51.0
+ZHO,Kick Sauber,84.403,52.0
+ZHO,Kick Sauber,84.294,53.0
+ZHO,Kick Sauber,84.239,54.0
+ZHO,Kick Sauber,84.038,55.0
+ZHO,Kick Sauber,83.978,56.0
+ZHO,Kick Sauber,83.889,57.0
+HUL,Haas F1 Team,91.557,5.0
+HUL,Haas F1 Team,90.682,6.0
+HUL,Haas F1 Team,88.652,7.0
+HUL,Haas F1 Team,88.418,8.0
+HUL,Haas F1 Team,87.812,9.0
+HUL,Haas F1 Team,88.286,10.0
+HUL,Haas F1 Team,88.031,11.0
+HUL,Haas F1 Team,88.229,12.0
+HUL,Haas F1 Team,87.908,13.0
+HUL,Haas F1 Team,87.442,14.0
+HUL,Haas F1 Team,87.232,15.0
+HUL,Haas F1 Team,86.897,16.0
+HUL,Haas F1 Team,87.481,17.0
+HUL,Haas F1 Team,87.808,18.0
+HUL,Haas F1 Team,87.227,19.0
+HUL,Haas F1 Team,87.237,20.0
+HUL,Haas F1 Team,87.327,21.0
+HUL,Haas F1 Team,87.214,22.0
+HUL,Haas F1 Team,87.3,23.0
+HUL,Haas F1 Team,87.021,24.0
+HUL,Haas F1 Team,86.647,25.0
+HUL,Haas F1 Team,86.568,26.0
+HUL,Haas F1 Team,86.737,27.0
+HUL,Haas F1 Team,86.235,28.0
+HUL,Haas F1 Team,86.334,29.0
+HUL,Haas F1 Team,86.595,30.0
+HUL,Haas F1 Team,90.767,31.0
+HUL,Haas F1 Team,85.767,33.0
+LAW,RB,89.548,6.0
+LAW,RB,88.165,7.0
+LAW,RB,88.159,8.0
+LAW,RB,87.66,9.0
+LAW,RB,88.209,10.0
+LAW,RB,88.037,11.0
+LAW,RB,88.11,12.0
+LAW,RB,88.275,13.0
+LAW,RB,87.703,14.0
+LAW,RB,87.692,15.0
+LAW,RB,87.514,16.0
+LAW,RB,87.411,17.0
+LAW,RB,87.362,18.0
+LAW,RB,87.288,19.0
+LAW,RB,87.111,20.0
+LAW,RB,87.143,21.0
+LAW,RB,87.107,22.0
+LAW,RB,86.886,23.0
+LAW,RB,87.019,24.0
+LAW,RB,87.045,25.0
+LAW,RB,86.915,26.0
+LAW,RB,86.56,27.0
+LAW,RB,86.533,28.0
+LAW,RB,86.446,29.0
+LAW,RB,86.642,30.0
+LAW,RB,86.242,31.0
+LAW,RB,86.264,32.0
+LAW,RB,86.219,33.0
+LAW,RB,86.194,34.0
+LAW,RB,89.07,43.0
+LAW,RB,87.6,44.0
+LAW,RB,86.207,45.0
+LAW,RB,86.076,46.0
+LAW,RB,86.424,47.0
+LAW,RB,86.369,48.0
+LAW,RB,86.753,49.0
+LAW,RB,87.637,50.0
+LAW,RB,88.245,51.0
+LAW,RB,87.612,52.0
+LAW,RB,87.521,53.0
+LAW,RB,87.69,54.0
+LAW,RB,87.54,55.0
+LAW,RB,86.327,56.0
+LAW,RB,86.522,57.0
+NOR,McLaren,87.175,5.0
+NOR,McLaren,86.683,6.0
+NOR,McLaren,86.5,7.0
+NOR,McLaren,86.668,8.0
+NOR,McLaren,86.344,9.0
+NOR,McLaren,85.972,10.0
+NOR,McLaren,85.985,11.0
+NOR,McLaren,85.813,12.0
+NOR,McLaren,85.794,13.0
+NOR,McLaren,85.924,14.0
+NOR,McLaren,85.535,15.0
+NOR,McLaren,85.508,16.0
+NOR,McLaren,85.39,17.0
+NOR,McLaren,85.253,18.0
+NOR,McLaren,85.276,19.0
+NOR,McLaren,85.017,20.0
+NOR,McLaren,84.997,21.0
+NOR,McLaren,84.865,22.0
+NOR,McLaren,84.977,23.0
+NOR,McLaren,84.67,24.0
+NOR,McLaren,84.721,25.0
+NOR,McLaren,84.537,26.0
+NOR,McLaren,84.861,27.0
+NOR,McLaren,84.751,28.0
+NOR,McLaren,84.915,29.0
+NOR,McLaren,84.556,30.0
+NOR,McLaren,84.794,31.0
+NOR,McLaren,84.65,32.0
+NOR,McLaren,84.96,33.0
+NOR,McLaren,84.562,34.0
+NOR,McLaren,84.627,43.0
+NOR,McLaren,83.473,44.0
+NOR,McLaren,87.666,45.0
+NOR,McLaren,82.936,47.0
+NOR,McLaren,82.64,48.0
+NOR,McLaren,82.822,49.0
+NOR,McLaren,84.692,50.0
+NOR,McLaren,85.197,51.0
+NOR,McLaren,82.928,52.0
+NOR,McLaren,85.089,53.0
+NOR,McLaren,82.471,54.0
+NOR,McLaren,82.994,55.0
+NOR,McLaren,82.384,56.0
+NOR,McLaren,83.271,57.0
+HAM,Mercedes,89.473,5.0
+HAM,Mercedes,88.084,6.0
+HAM,Mercedes,87.872,7.0
+HAM,Mercedes,87.043,8.0
+HAM,Mercedes,86.983,9.0
+HAM,Mercedes,87.154,10.0
+HAM,Mercedes,86.816,11.0
+HAM,Mercedes,86.532,12.0
+HAM,Mercedes,86.514,13.0
+HAM,Mercedes,86.558,14.0
+HAM,Mercedes,86.8,15.0
+HAM,Mercedes,86.585,16.0
+HAM,Mercedes,86.276,17.0
+HAM,Mercedes,86.47,18.0
+HAM,Mercedes,86.323,19.0
+HAM,Mercedes,86.383,20.0
+HAM,Mercedes,86.026,21.0
+HAM,Mercedes,86.189,22.0
+HAM,Mercedes,85.618,23.0
+HAM,Mercedes,85.734,24.0
+HAM,Mercedes,85.378,25.0
+HAM,Mercedes,85.326,26.0
+HAM,Mercedes,85.227,27.0
+HAM,Mercedes,86.598,28.0
+HAM,Mercedes,85.25,29.0
+HAM,Mercedes,85.396,30.0
+HAM,Mercedes,85.272,31.0
+HAM,Mercedes,85.253,32.0
+HAM,Mercedes,85.713,33.0
+HAM,Mercedes,86.953,38.0
+HAM,Mercedes,89.654,43.0
+HAM,Mercedes,87.093,44.0
+HAM,Mercedes,85.28,45.0
+HAM,Mercedes,84.726,46.0
+HAM,Mercedes,85.096,49.0
+HAM,Mercedes,84.806,50.0
+HAM,Mercedes,84.462,51.0
+HAM,Mercedes,83.865,52.0
+HAM,Mercedes,84.044,53.0
+HAM,Mercedes,87.079,54.0
+HAM,Mercedes,84.25,55.0
+HAM,Mercedes,84.412,56.0
+HAM,Mercedes,85.086,57.0
+SAI,Ferrari,87.634,6.0
+SAI,Ferrari,87.189,7.0
+SAI,Ferrari,87.142,8.0
+SAI,Ferrari,86.794,9.0
+SAI,Ferrari,86.466,10.0
+SAI,Ferrari,86.378,11.0
+SAI,Ferrari,86.223,12.0
+SAI,Ferrari,86.126,13.0
+SAI,Ferrari,86.19,14.0
+SAI,Ferrari,86.112,15.0
+SAI,Ferrari,85.887,16.0
+SAI,Ferrari,85.873,17.0
+SAI,Ferrari,85.568,18.0
+SAI,Ferrari,85.852,19.0
+SAI,Ferrari,85.559,20.0
+SAI,Ferrari,85.369,21.0
+SAI,Ferrari,85.353,22.0
+SAI,Ferrari,85.373,23.0
+SAI,Ferrari,85.279,24.0
+SAI,Ferrari,85.331,25.0
+SAI,Ferrari,85.13,26.0
+SAI,Ferrari,84.859,27.0
+SAI,Ferrari,85.144,28.0
+SAI,Ferrari,84.982,29.0
+SAI,Ferrari,85.235,30.0
+SAI,Ferrari,84.802,31.0
+SAI,Ferrari,84.885,32.0
+SAI,Ferrari,85.104,33.0
+SAI,Ferrari,87.686,43.0
+SAI,Ferrari,85.236,44.0
+SAI,Ferrari,84.607,45.0
+SAI,Ferrari,84.17,46.0
+SAI,Ferrari,84.445,47.0
+SAI,Ferrari,84.094,48.0
+SAI,Ferrari,83.89,49.0
+SAI,Ferrari,83.858,50.0
+SAI,Ferrari,84.922,51.0
+SAI,Ferrari,83.465,52.0
+SAI,Ferrari,83.62,53.0
+SAI,Ferrari,83.745,54.0
+SAI,Ferrari,84.559,55.0
+SAI,Ferrari,83.544,56.0
+SAI,Ferrari,83.905,57.0
+RUS,Mercedes,87.948,5.0
+RUS,Mercedes,86.797,6.0
+RUS,Mercedes,86.561,7.0
+RUS,Mercedes,86.433,8.0
+RUS,Mercedes,86.498,9.0
+RUS,Mercedes,86.274,10.0
+RUS,Mercedes,86.214,11.0
+RUS,Mercedes,85.989,12.0
+RUS,Mercedes,86.182,13.0
+RUS,Mercedes,86.24,14.0
+RUS,Mercedes,85.958,15.0
+RUS,Mercedes,86.022,16.0
+RUS,Mercedes,85.749,17.0
+RUS,Mercedes,85.56,18.0
+RUS,Mercedes,85.546,19.0
+RUS,Mercedes,85.76,20.0
+RUS,Mercedes,85.721,21.0
+RUS,Mercedes,85.576,22.0
+RUS,Mercedes,85.514,25.0
+RUS,Mercedes,85.973,26.0
+RUS,Mercedes,86.155,27.0
+RUS,Mercedes,85.867,28.0
+RUS,Mercedes,85.916,29.0
+RUS,Mercedes,86.145,30.0
+RUS,Mercedes,85.811,31.0
+RUS,Mercedes,85.583,32.0
+RUS,Mercedes,85.498,33.0
+RUS,Mercedes,85.972,34.0
+RUS,Mercedes,86.371,43.0
+RUS,Mercedes,84.644,44.0
+RUS,Mercedes,84.01,45.0
+RUS,Mercedes,83.614,46.0
+RUS,Mercedes,83.889,47.0
+RUS,Mercedes,83.796,48.0
+RUS,Mercedes,83.744,49.0
+RUS,Mercedes,83.355,50.0
+RUS,Mercedes,83.495,51.0
+RUS,Mercedes,83.549,52.0
+RUS,Mercedes,83.681,53.0
+RUS,Mercedes,83.56,54.0
+RUS,Mercedes,83.361,55.0
+RUS,Mercedes,83.366,56.0
+RUS,Mercedes,83.477,57.0
+BOT,Kick Sauber,89.4,6.0
+BOT,Kick Sauber,88.25,7.0
+BOT,Kick Sauber,88.501,8.0
+BOT,Kick Sauber,87.855,9.0
+BOT,Kick Sauber,87.717,10.0
+BOT,Kick Sauber,88.141,11.0
+BOT,Kick Sauber,87.842,12.0
+BOT,Kick Sauber,87.753,13.0
+BOT,Kick Sauber,87.79,14.0
+BOT,Kick Sauber,88.029,15.0
+BOT,Kick Sauber,87.96,16.0
+BOT,Kick Sauber,87.339,17.0
+BOT,Kick Sauber,87.489,18.0
+BOT,Kick Sauber,87.16,19.0
+BOT,Kick Sauber,86.295,20.0
+BOT,Kick Sauber,86.958,21.0
+BOT,Kick Sauber,86.843,22.0
+BOT,Kick Sauber,86.299,23.0
+BOT,Kick Sauber,90.542,24.0
+BOT,Kick Sauber,87.079,26.0
+BOT,Kick Sauber,86.69,27.0
+BOT,Kick Sauber,89.406,28.0
+BOT,Kick Sauber,86.93,29.0
+BOT,Kick Sauber,86.461,30.0
+BOT,Kick Sauber,86.288,31.0
+BOT,Kick Sauber,88.647,32.0
+BOT,Kick Sauber,88.461,33.0
+BOT,Kick Sauber,88.199,38.0
+BOT,Kick Sauber,89.792,39.0
+BOT,Kick Sauber,88.386,43.0
+BOT,Kick Sauber,86.779,44.0
+BOT,Kick Sauber,86.296,45.0
+BOT,Kick Sauber,86.979,46.0
+BOT,Kick Sauber,85.92,47.0
+BOT,Kick Sauber,85.548,48.0
+BOT,Kick Sauber,85.639,49.0
+BOT,Kick Sauber,85.881,50.0
+BOT,Kick Sauber,86.352,51.0
+BOT,Kick Sauber,86.927,52.0
+BOT,Kick Sauber,85.533,53.0
+BOT,Kick Sauber,86.568,54.0
+BOT,Kick Sauber,86.051,55.0
+BOT,Kick Sauber,86.311,56.0
+BOT,Kick Sauber,87.014,57.0
+PIA,McLaren,87.603,5.0
+PIA,McLaren,87.02,6.0
+PIA,McLaren,86.851,7.0
+PIA,McLaren,86.322,8.0
+PIA,McLaren,86.464,9.0
+PIA,McLaren,86.169,10.0
+PIA,McLaren,86.382,11.0
+PIA,McLaren,86.288,12.0
+PIA,McLaren,86.035,13.0
+PIA,McLaren,86.056,14.0
+PIA,McLaren,85.803,15.0
+PIA,McLaren,86.474,16.0
+PIA,McLaren,86.031,17.0
+PIA,McLaren,85.703,18.0
+PIA,McLaren,85.494,19.0
+PIA,McLaren,85.517,20.0
+PIA,McLaren,85.366,21.0
+PIA,McLaren,85.218,22.0
+PIA,McLaren,85.634,23.0
+PIA,McLaren,84.75,24.0
+PIA,McLaren,84.897,25.0
+PIA,McLaren,84.898,26.0
+PIA,McLaren,84.727,27.0
+PIA,McLaren,84.71,28.0
+PIA,McLaren,84.761,29.0
+PIA,McLaren,85.129,30.0
+PIA,McLaren,84.883,31.0
+PIA,McLaren,84.894,32.0
+PIA,McLaren,85.284,33.0
+PIA,McLaren,86.116,43.0
+PIA,McLaren,84.301,44.0
+PIA,McLaren,83.98,45.0
+PIA,McLaren,83.909,46.0
+PIA,McLaren,83.568,47.0
+PIA,McLaren,83.624,48.0
+PIA,McLaren,83.623,49.0
+PIA,McLaren,83.625,50.0
+PIA,McLaren,83.218,51.0
+PIA,McLaren,83.478,52.0
+PIA,McLaren,83.523,53.0
+PIA,McLaren,83.37,54.0
+PIA,McLaren,83.269,55.0
+PIA,McLaren,83.313,56.0
+PIA,McLaren,83.241,57.0
